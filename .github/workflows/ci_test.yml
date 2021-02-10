@@ -20,3 +20,5 @@ jobs:
     - run: grunt setup
     - run: grunt test:prod
 
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
